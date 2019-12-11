@@ -41,7 +41,7 @@
 // ***> NOTE: The init message must be a single line with no CRs or LFs
 #define INIT_MESSAGE "Initializing configs to OMC OtherMill settings"
 
-#define JERK_MAX					500			// 500 million mm/(min^3)
+#define JERK_MAX					300			// 500 million mm/(min^3)
 #define JERK_HOMING					1000		// 1000 million mm/(min^3)		// Jerk during homing needs to stop *fast*
 #define JUNCTION_DEVIATION			0.01		// default value, in mm
 #define JUNCTION_ACCELERATION		100000		// centripetal acceleration around corners

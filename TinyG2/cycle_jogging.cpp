@@ -144,7 +144,7 @@ static stat_t _jogging_axis_start(int8_t axis)
 }
 
 #define INITIAL_RAMP 0.01
-#define RAMP_DIST 1.0
+#define RAMP_DIST 2.0
 #define MAX_STEPS 50
 
 static stat_t _jogging_axis_ramp_jog(int8_t axis)           // run the jog ramp
