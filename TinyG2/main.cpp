@@ -85,7 +85,7 @@ decltype(usb._mixin_0_type::Serial) &SerialUSB = usb._mixin_0_type::Serial;
 decltype(usb._mixin_1_type::Serial) &SerialUSB1 = usb._mixin_1_type::Serial;
 
 MOTATE_SET_USB_VENDOR_STRING( {'S' ,'y', 'n', 't', 'h', 'e', 't', 'o', 's'} )
-MOTATE_SET_USB_PRODUCT_STRING( {'T', 'i', 'n', 'y', 'G', ' ', 'v', '2'} )
+MOTATE_SET_USB_PRODUCT_STRING( {'T', 'i', 'n', 'y', 'G', ' ', 'v', '2', ' ', 'C', 'N', 'C', 'M', 'M', '_', 'D', 'u', 'a', 'l', 'C', 'h', 'a', 'n', 'n', 'e', 'l'} )
 MOTATE_SET_USB_SERIAL_NUMBER_STRING_FROM_CHIPID()
 
 //Motate::SPI<kSocket4_SPISlaveSelectPinNumber> spi;
